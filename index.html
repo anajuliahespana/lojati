@@ -1,0 +1,44 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LojaTI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="div1">
+            <h1>Cadastre um cliente</h1>
+        </div>
+    </div>
+
+    <div class="container_formulario">
+
+        <form action="http://localhost/lojati/back/index.php?rota=clientes/create" method="post">
+
+            <input type="text" name="Nome" placeholder="Digite o nome:">
+            <br>
+
+            <input type="email" name="Email" placeholder="Digite o e-mail:">
+            <br>
+
+            <input type="text" name="Telefone" placeholder="Digite o telefone:">
+            <br>
+
+            <input type="text" name="Endereco" placeholder="Digite o endereço:">
+            <br>
+
+            <input type="submit" value="Enviar" id="botao">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
